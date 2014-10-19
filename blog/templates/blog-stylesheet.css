@@ -20,7 +20,7 @@ h1 {
 
 .imageBox{
   margin-left: 40px;
-  width:600px;
+  width: 600px;
   background-color: #F5F5F5;
 }
 
@@ -48,8 +48,3 @@ h6{
   background-color: #F5F5F5;
 }
 
-img{
-  width:250px;
-  height: 200px;
-
-}
