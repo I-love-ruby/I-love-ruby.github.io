@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0px;
+  padding: 0px;
+}
+body{font-family:sans-serif; font-size:12px; color:#666666; margin: 0 auto; background-color:#000;}
+li{
+  list-style: none;
+
+}
+a{text-decoration:none;}
+img{border: none;}
+address{font-style:normal;}
+address,article,aside,figure,footer,header,hgroup,menu,nav,section{display:block;}
