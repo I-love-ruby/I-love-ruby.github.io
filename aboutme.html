@@ -7,11 +7,14 @@
 </head>
 
 <body>
- <botton id="myBotton"> you know you want to click me..</botton>
+ <botton id="textChanger"> Change first div text</botton>
+
+ <div id="firstDiv"> This is some text </div>
+
 
   <script type="text/javascript">
-  document.getElementById("myBotton").onclick=function(){
-    alert('hi!');
+  document.getElementById("textChanger").onclick=function(){
+    document.getElementById('firstDiv').innerHTML="this is awesome";
   }
 
   </script>
