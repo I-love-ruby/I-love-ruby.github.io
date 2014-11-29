@@ -14,21 +14,25 @@ border-radius: 100px;}
 </head>
 
 <body>
-<input id="myInput" type="text" value="test"/>
-<button id="stylechanger">Change the text</button>
-<div id="firstDiv">This is some text</div>
+  <input id="myInput" type="text" value="test"/>
+  <button id=" stylechanger">change the style</button>
+  <div id="firstDiv">This is test </div>
 
-<SCRIPT TYPE="text/javascript">
- var newText=document.getElementById("myInput").value;
+  <SCRIPT TYPE="text/javascript">
 
-document.getElementById("stylechanger").onclick=function(){
+    var newText= document.getElementById('myInput').value;
 
-        document.getElementById('myInput').value;
-        document.getElementById('firstDiv').innerHTML=newText;
-}
+    document.getElementById('stylechanger').onclick=function(){
+
+        newText=document.getElementById('myInput').value;
+        document.getElementById('firstDiv').innerHTML=newtext;
+
+    }
 
 
 
+
+  </SCRIPT>
 
 
 </SCRIPT>
