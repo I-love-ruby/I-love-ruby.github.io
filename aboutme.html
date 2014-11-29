@@ -14,22 +14,24 @@ border-radius: 100px;}
 </head>
 
 <body>
-
-<div id='circle'> change my color </div>
-
+<input id="myInput" type="text" value="test"/>
+<button id="stylechanger">Change the text</button>
+<div id="firstDiv">This is some text</div>
 
 <SCRIPT TYPE="text/javascript">
+ var newText=document.getElementById("myInput").value;
+
+document.getElementById("stylechanger").onclick=function(){
+
+        document.getElementById('myInput').value;
+        document.getElementById('firstDiv').innerHTML=newText;
+}
 
 
 
 
-  document.getElementById('circle').onclick=function(){
 
-    document.getElementById('circle').style.display='none'
-  }
-
-
-
+</SCRIPT>
 
 
 </SCRIPT>
