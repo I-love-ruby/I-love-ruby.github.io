@@ -14,44 +14,21 @@ border-radius: 100px;}
 </head>
 
 <body>
-  <input id="myInput" type="text" value="test"/>
-  <button id=" stylechanger">change the style</button>
-  <div id="firstDiv">This is test </div>
+  <p> What is the weather today?<p>
+   <input id="weather"/>
+   <button id="myButton"></button>
+<SCRIPT TYPE="text/javascript">
 
-  <SCRIPT TYPE="text/javascript">
+  document.getElementById('myButton').onclick=function(){ if document.getElementById('weather').value =='rain';
+  alert("it is raining");} else{
 
-    var newText= document.getElementById('myInput').value;
+  alert("it is not raining");
 
-    document.getElementById('stylechanger').onclick=function(){
-
-        newText=document.getElementById('myInput').value;
-        document.getElementById('firstDiv').innerHTML=newtext;
-
-    }
-
-
-
-
-  </SCRIPT>
-
-
+  }
+}
 </SCRIPT>
-
-
-</SCRIPT>
-
-
 
 </body>
 </html>
 
 
-
-
-var x=1
- if(x==1){
- alert("x is 1")
-}else{
-  alert('x is not 1')
-
-}
